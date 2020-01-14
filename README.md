@@ -24,3 +24,4 @@ Run the play book
 ```code
 ansible-playbook -i hosts docker-swarm.yml
 ```
+You can find detailed description here [https://devopsbyte.com/create-a-docker-swarm-cluster-using-ansible/]
