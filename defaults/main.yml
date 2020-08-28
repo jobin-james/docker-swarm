@@ -9,7 +9,7 @@ packages:
   - docker-ce-cli
   - containerd.io
 
-ansible_docker_repo: deb [arch=amd64] https://download.docker.com/linux/{{ansible_distribution|lower}} {{ansible_distribution_release}} stable
+ansible_docker_repo: deb [arch=amd64] https://download.docker.com/linux/{{ ansible_distribution|lower }} {{ ansible_distribution_release }} stable
 ansible_docker_repo_key: https://download.docker.com/linux/ubuntu/gpg
 ansible_docker_repo_key_id: 0EBFCD88
 
